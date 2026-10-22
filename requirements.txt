@@ -1,0 +1,4 @@
+numpy
+pillow
+soundfile      # ring-video only
+kokoro-onnx    # ring-video narration only

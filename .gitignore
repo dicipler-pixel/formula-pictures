@@ -1,0 +1,10 @@
+# outputs the scripts regenerate
+yeganeh/*.png
+ring-video/frames/
+ring-video/frames_v2/
+ring-video/voice/
+ring-video/models/
+ring-video/sim.json
+ring-video/plan_v2.json
+ring-video/*.log
+__pycache__/

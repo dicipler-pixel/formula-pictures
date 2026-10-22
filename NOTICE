@@ -1,0 +1,16 @@
+Formula pictures
+Copyright (c) 2026 Jeromie Beasley
+
+Third-party work, used for commentary and analysis and NOT covered by this repository's licenses:
+
+* Hamid Naderi Yeganeh, "View of a Black Hole from a Planet" (formula image). The formula is
+  transcribed in yeganeh/render.py and yeganeh/anatomy.py so that the analysis can be checked.
+  The images those scripts produce, yeganeh/writeup/render.jpg, yeganeh/writeup/ablation.jpg and
+  the first two images in the PDF (the full render and the six-panel ablation) are renders of his formula and remain his work. Ask him before
+  reusing them.
+
+Tools used, not included:
+
+* Kokoro-82M text-to-speech (Apache-2.0), run through kokoro-onnx (MIT), voice am_michael.
+  ring-video/narrate.py downloads nothing itself; see the README for where to get the model files.
+* FFmpeg with libx264 for encoding.

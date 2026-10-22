@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or these figures, please cite them as below."
+title: "Formula pictures: pictures that are equations"
+authors:
+  - family-names: Beasley
+    given-names: Jeromie
+date-released: 2026-10-22
+license: "MIT OR Apache-2.0"
+repository-code: "https://github.com/dicipler-pixel/formula-pictures"
+references:
+  - type: article
+    title: "Non-normality is connection energy, and its opposite"
+    authors:
+      - family-names: Beasley
+        given-names: Jeromie
+    doi: "10.5281/zenodo.22803572"

@@ -1,0 +1,93 @@
+# Formula pictures
+
+Pictures that are equations: every pixel is computed from a formula, so the figure can be
+checked the way a proof can.
+
+Jeromie Beasley · Atlas Memoriae
+
+*AI-assisted. The ideas and research direction are the author's; AI tools were used for
+computation, coding, drafting and narration (see [AI_USE.md](AI_USE.md)).*
+
+## 1. How the black-hole equation is built (`yeganeh/`)
+
+Mathlerium asked how Hamid Naderi Yeganeh writes formulas like *View of a Black Hole from a
+Planet*, in which one equation gives the colour of every pixel. The answer here has four parts,
+each a script you can run.
+
+| Script | What it does | Result |
+|---|---|---|
+| `render.py` | Renders his printed formula exactly, 2000 × 1200 | reproduces the published picture |
+| `checks.py` | Checks two identities of the grammar | the layer weights sum to 1 (error 4×10⁻¹⁶); cloud roughness exponent 0.472 |
+| `anatomy.py` | Switches off one group of terms at a time | each group draws exactly one element of the picture |
+| `new_scene_v2.py` | Writes a new picture with nothing but the same eight operations | *Two moons over a mountain lake at dusk* |
+| `transcription_check.py` | Re-implements the new formula from its written form and compares | 0 differences in 2,400,000 pixels |
+
+The eight operations: soft step e^(−e^(−kz)); AND by adding inner exponentials; shapes as level
+sets; glow bands around a level set; folds arccos(cos θ) for ridges; a fractal texture sum;
+a painter's chain of layers ∏(1−J_u)·J_s; colour as a quadratic in the channel number; and
+F = ⌊255·clamp⌋ for the output.
+
+The write-up is in `yeganeh/writeup/`: open `index.html` in a browser (it runs no scripts), or
+read `how-the-black-hole-equation-is-built.pdf` (5 pages).
+
+Each script takes about 25–30 seconds on a laptop and writes its PNG next to itself.
+
+```
+cd yeganeh
+python3 render.py
+python3 checks.py
+python3 anatomy.py
+python3 new_scene_v2.py
+python3 transcription_check.py   # run after new_scene_v2.py
+```
+
+## 2. The ring keeps two books (`ring-video/`)
+
+The twisted ring of Section 7 of *Non-normality is connection energy, and its opposite*
+(Jeromie Beasley, v15, [doi:10.5281/zenodo.22803572](https://doi.org/10.5281/zenodo.22803572)),
+drawn with the same grammar. Five sites; a twist d is wound in. Each edge holds a fixed budget
+of 8, split between the connection book 4(1 − cos x) (amber) and its opposite 4(1 + cos x)
+(cyan). The outer circle is the whole ring's account, with a white mark at the floor
+min_w 4N(1 − cos((d − 2πw)/N)). At d = π the two windings tie; the field keeps its winding
+until about d = 2.75π, then slips one winding and settles back on the floor.
+
+* `ring_keeps_two_books_v1.mp4`: 24 s, silent.
+* `ring_keeps_two_books_narrated_v2.mp4`: 63 s, narrated (Kokoro, voice am_michael).
+
+To rebuild them:
+
+```
+cd ring-video
+python3 ring_video.py simulate          # the flow, about 1 s
+python3 ring_video.py render 0 1        # 577 frames into frames/, about 2.4 s per frame
+ffmpeg -framerate 24 -i frames/f%04d.png -c:v libx264 -crf 18 -pix_fmt yuv420p silent.mp4
+
+# narrated cut: put kokoro-v1.0.onnx and voices-v1.0.bin in ring-video/models/
+# (from the model-files-v1.0 release of github.com/thewh1teagle/kokoro-onnx), or set KOKORO_DIR
+python3 narrate.py
+python3 ring_video_v2.py plan
+python3 ring_video_v2.py audio
+python3 ring_video_v2.py render 0 1     # 1524 frames into frames_v2/
+ffmpeg -framerate 24 -i frames_v2/f%04d.png -i voice/narration_v2.wav -c:v libx264 -crf 18 \
+       -pix_fmt yuv420p -c:a aac -shortest narrated.mp4
+```
+
+`render <worker> <nworkers> [max_frames]` splits the frames between processes: run
+`render 0 2` and `render 1 2` side by side on two cores. Add a third number to render only the
+first few frames as a test.
+
+What the motion is, stated plainly: a downhill flow of the connection energy kept to the ring
+family (fields in one plane), with a small noise to break the ring's symmetry. It is not the
+author's relaxation flow, which leaves the ring family. The lag from π to about 2.75π and the
+slip landing on one edge are what this run did; they were not tested across settings.
+
+## Requirements
+
+Python 3 with NumPy and Pillow; `soundfile` and `kokoro-onnx` for the narration; FFmpeg to make
+the MP4s. The titles use TeX Gyre Pagella and Heros if installed, otherwise DejaVu.
+
+## Licence
+
+Code: MIT OR Apache-2.0, at your option. Text, the two-moons image and the videos: CC BY 4.0.
+Yeganeh's formula and every image rendered from it are his and are not covered; see
+[LICENSE](LICENSE) and [NOTICE](NOTICE).
