@@ -4,8 +4,11 @@ title: "Formula pictures: pictures that are equations"
 authors:
   - family-names: Beasley
     given-names: Jeromie
+    orcid: "https://orcid.org/0009-0006-4645-5643"
 date-released: 2026-10-22
-license: "MIT OR Apache-2.0"
+license:
+  - MIT
+  - Apache-2.0
 repository-code: "https://github.com/dicipler-pixel/formula-pictures"
 references:
   - type: article
@@ -13,4 +16,5 @@ references:
     authors:
       - family-names: Beasley
         given-names: Jeromie
+        orcid: "https://orcid.org/0009-0006-4645-5643"
     doi: "10.5281/zenodo.22803572"

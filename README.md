@@ -3,7 +3,7 @@
 Pictures that are equations: every pixel is computed from a formula, so the figure can be
 checked the way a proof can.
 
-Jeromie Beasley · Atlas Memoriae
+Jeromie Beasley · Atlas Memoriae · ORCID [0009-0006-4645-5643](https://orcid.org/0009-0006-4645-5643)
 
 *AI-assisted. The ideas and research direction are the author's; AI tools were used for
 computation, coding, drafting and narration (see [AI_USE.md](AI_USE.md)).*
