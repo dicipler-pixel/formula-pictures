@@ -81,6 +81,16 @@ family (fields in one plane), with a small noise to break the ring's symmetry. I
 author's relaxation flow, which leaves the ring family. The lag from π to about 2.75π and the
 slip landing on one edge are what this run did; they were not tested across settings.
 
+## Credits
+
+* **Mathlerium** (on X) posed the question this repository answers: how are equations like
+  Yeganeh's black-hole picture made?
+* **Hamid Naderi Yeganeh** created *View of a Black Hole from a Planet* and the way of writing a
+  whole picture as one formula: the pixel convention that turns row n and column m into a point
+  (x, y), the soft steps, layers and colour polynomials, and the final step that turns each value
+  into a pixel colour. Everything in `yeganeh/` reads his work, and the ring video borrows his
+  grammar. His formula and the images rendered from it remain his (see [NOTICE](NOTICE)).
+
 ## Requirements
 
 Python 3 with NumPy and Pillow; `soundfile` and `kokoro-onnx` for the narration; FFmpeg to make
