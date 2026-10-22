@@ -10,7 +10,7 @@ computation, coding, drafting and narration (see [AI_USE.md](AI_USE.md)).*
 
 ## 1. How the black-hole equation is built (`yeganeh/`)
 
-Mathlerium asked how Hamid Naderi Yeganeh writes formulas like *View of a Black Hole from a
+Mathelirium ([@mathelirium](https://x.com/mathelirium) on X) asked how Hamid Naderi Yeganeh ([@naderi_yeganeh](https://x.com/naderi_yeganeh)) writes formulas like *View of a Black Hole from a
 Planet*, in which one equation gives the colour of every pixel. The answer here has four parts,
 each a script you can run.
 
@@ -28,7 +28,7 @@ a painter's chain of layers ∏(1−J_u)·J_s; colour as a quadratic in the chan
 F = ⌊255·clamp⌋ for the output.
 
 The write-up is in `yeganeh/writeup/`: open `index.html` in a browser (it runs no scripts), or
-read `how-the-black-hole-equation-is-built.pdf` (5 pages).
+read `how-the-black-hole-equation-is-built-v2.pdf` (5 pages).
 
 Each script takes about 25–30 seconds on a laptop and writes its PNG next to itself.
 
@@ -83,9 +83,9 @@ slip landing on one edge are what this run did; they were not tested across sett
 
 ## Credits
 
-* **Mathlerium** (on X) posed the question this repository answers: how are equations like
+* **Mathelirium** ([@mathelirium](https://x.com/mathelirium) on X) posed the question this repository answers: how are equations like
   Yeganeh's black-hole picture made?
-* **Hamid Naderi Yeganeh** created *View of a Black Hole from a Planet* and the way of writing a
+* **Hamid Naderi Yeganeh** ([@naderi_yeganeh](https://x.com/naderi_yeganeh) on X) created *View of a Black Hole from a Planet* and the way of writing a
   whole picture as one formula: the pixel convention that turns row n and column m into a point
   (x, y), the soft steps, layers and colour polynomials, and the final step that turns each value
   into a pixel colour. Everything in `yeganeh/` reads his work, and the ring video borrows his
