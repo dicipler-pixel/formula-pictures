@@ -8,27 +8,55 @@ Jeromie Beasley · Atlas Memoriae · ORCID [0009-0006-4645-5643](https://orcid.o
 *AI-assisted. The ideas and research direction are the author's; AI tools were used for
 computation, coding, drafting and narration (see [AI_USE.md](AI_USE.md)).*
 
-## 1. How the black-hole equation is built (`yeganeh/`)
+## See the formula become a picture
+
+[**Read the illustrated PDF · 5 pages**](yeganeh/writeup/how-the-black-hole-equation-is-built-v2.pdf) ·
+[**Watch the narrated ring · 63 seconds**](ring-video/ring_keeps_two_books_narrated_v2.mp4) ·
+[**Watch the silent ring · 24 seconds**](ring-video/ring_keeps_two_books_v1.mp4)
+
+### 1. Reproduce the black hole
+
+![View of a Black Hole from a Planet, rendered from Hamid Naderi Yeganeh’s formula](yeganeh/writeup/render.jpg)
+
+*Original formula and picture by Hamid Naderi Yeganeh. Reproduced here to explain how its terms build the image.*
+
+### 2. Take the formula apart
+
+![Ablation study: removing groups of formula terms reveals which parts of the scene they draw](yeganeh/writeup/ablation.jpg)
+
+*Switch off one group of terms at a time and see what disappears.*
+
+### 3. Build a new scene with the same mathematical tools
+
+![Two moons over a mountain lake at dusk, generated from Jeromie Beasley’s new formula](yeganeh/writeup/two-moons.jpg)
+
+*Two moons over a mountain lake at dusk — Jeromie Beasley’s new scene, built using Yeganeh’s mathematical grammar.*
+
+The route through this project is **reproduce → take apart → rebuild → check**.
+The scripts and reported checks are below.
+
+## How the black-hole equation is built
 
 Mathelirium ([@mathelirium](https://x.com/mathelirium) on X) asked how Hamid Naderi Yeganeh ([@naderi_yeganeh](https://x.com/naderi_yeganeh)) writes formulas like *View of a Black Hole from a
-Planet*, in which one equation gives the colour of every pixel. The answer here has four parts,
-each a script you can run.
+Planet*, in which one equation gives the colour of every pixel. The answer here is a sequence of five scripts you can run.
 
 | Script | What it does | Result |
 |---|---|---|
-| `render.py` | Renders his printed formula exactly, 2000 × 1200 | reproduces the published picture |
-| `checks.py` | Checks two identities of the grammar | the layer weights sum to 1 (error 4×10⁻¹⁶); cloud roughness exponent 0.472 |
-| `anatomy.py` | Switches off one group of terms at a time | each group draws exactly one element of the picture |
-| `new_scene_v2.py` | Writes a new picture with nothing but the same eight operations | *Two moons over a mountain lake at dusk* |
-| `transcription_check.py` | Re-implements the new formula from its written form and compares | 0 differences in 2,400,000 pixels |
+| [`render.py`](yeganeh/render.py) | Renders his printed formula exactly, 2000 × 1200 | reproduces the published picture |
+| [`checks.py`](yeganeh/checks.py) | Checks two identities of the grammar | the layer weights sum to 1 (error 4×10⁻¹⁶); cloud roughness exponent 0.472 |
+| [`anatomy.py`](yeganeh/anatomy.py) | Switches off one group of terms at a time | each group draws exactly one element of the picture |
+| [`new_scene_v2.py`](yeganeh/new_scene_v2.py) | Writes a new picture with nothing but the same eight operations | *Two moons over a mountain lake at dusk* |
+| [`transcription_check.py`](yeganeh/transcription_check.py) | Re-implements the new formula from its written form and compares | 0 differences in 2,400,000 pixels |
 
-The eight operations: soft step e^(−e^(−kz)); AND by adding inner exponentials; shapes as level
+The eight building blocks: soft step e^(−e^(−kz)); AND by adding inner exponentials; shapes as level
 sets; glow bands around a level set; folds arccos(cos θ) for ridges; a fractal texture sum;
-a painter's chain of layers ∏(1−J_u)·J_s; colour as a quadratic in the channel number; and
-F = ⌊255·clamp⌋ for the output.
+a painter's chain of layers ∏(1−J_u)·J_s; colour as a quadratic in the channel number.
+The final output step is F = ⌊255·clamp⌋.
 
-The write-up is in `yeganeh/writeup/`: open `index.html` in a browser (it runs no scripts), or
-read `how-the-black-hole-equation-is-built-v2.pdf` (5 pages).
+[Read the illustrated PDF](yeganeh/writeup/how-the-black-hole-equation-is-built-v2.pdf),
+or [download the HTML explainer](https://github.com/dicipler-pixel/formula-pictures/raw/refs/heads/main/yeganeh/writeup/index.html)
+and open it in a browser. The explainer runs no scripts; keep its three images alongside it
+by downloading the [complete repository](https://github.com/dicipler-pixel/formula-pictures/archive/refs/heads/main.zip).
 
 Each script takes about 25–30 seconds on a laptop and writes its PNG next to itself.
 
@@ -41,7 +69,7 @@ python3 new_scene_v2.py
 python3 transcription_check.py   # run after new_scene_v2.py
 ```
 
-## 2. The ring keeps two books (`ring-video/`)
+## The ring keeps two books
 
 The twisted ring of Section 7 of *Non-normality is connection energy, and its opposite*
 (Jeromie Beasley, v15, [doi:10.5281/zenodo.22803572](https://doi.org/10.5281/zenodo.22803572)),
@@ -51,8 +79,9 @@ of 8, split between the connection book 4(1 − cos x) (amber) and its opposite 
 min_w 4N(1 − cos((d − 2πw)/N)). At d = π the two windings tie; the field keeps its winding
 until about d = 2.75π, then slips one winding and settles back on the floor.
 
-* `ring_keeps_two_books_v1.mp4`: 24 s, silent.
-* `ring_keeps_two_books_narrated_v2.mp4`: 63 s, narrated (Kokoro, voice am_michael).
+* [Watch the silent ring](ring-video/ring_keeps_two_books_v1.mp4) — 24 s.
+* [Watch the narrated ring](ring-video/ring_keeps_two_books_narrated_v2.mp4) — 63 s, narrated (Kokoro, voice am_michael).
+* [Download the narrated MP4](https://github.com/dicipler-pixel/formula-pictures/raw/refs/heads/main/ring-video/ring_keeps_two_books_narrated_v2.mp4).
 
 To rebuild them:
 
