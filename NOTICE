@@ -14,6 +14,10 @@ Third-party work, used for commentary and analysis and NOT covered by this repos
 
 Tools used, not included:
 
-* Kokoro-82M text-to-speech (Apache-2.0), run through kokoro-onnx (MIT), voice am_michael.
+* Kokoro-82M text-to-speech (Apache-2.0), run through kokoro-onnx (MIT), voices am_michael (ring video) and af_heart (Mona Tesla v5).
   ring-video/narrate.py downloads nothing itself; see the README for where to get the model files.
 * FFmpeg with libx264 for encoding.
+
+Mona Tesla v5: formula artwork and supplied coefficients credited to Jeromie Beasley.
+The Fourier, winding, sigmoid and Perron constructions are identified in its equation sheet.
+ChatGPT implemented the renderer and explanatory animation; see AI_USE.md.

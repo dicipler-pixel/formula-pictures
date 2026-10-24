@@ -1,0 +1,23 @@
+name: Publish original Mona Tesla video
+on:
+  push:
+    branches: [main]
+    paths: ['mona-tesla-v5/video-upload.json']
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: "!contains(github.event.head_commit.message, '[assembled-video]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify and assemble the original MP4
+        run: python3 mona-tesla-v5/assemble_video.py
+      - name: Publish video and remove transport parts
+        run: |
+          git add mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4
+          git rm mona-tesla-v5/.upload/* mona-tesla-v5/video-upload.json
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Publish verified full-quality Mona Tesla explainer [assembled-video]'
+          git push origin HEAD:main

@@ -8,3 +8,6 @@ ring-video/sim.json
 ring-video/plan_v2.json
 ring-video/*.log
 __pycache__/
+
+# Mona Tesla caches and generated inspection frames
+mona-tesla-v5/assets/

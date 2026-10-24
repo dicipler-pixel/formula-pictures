@@ -110,6 +110,25 @@ family (fields in one plane), with a small noise to break the ring's symmetry. I
 author's relaxation flow, which leaves the ring family. The lag from π to about 2.75π and the
 slip landing on one edge are what this run did; they were not tested across settings.
 
+## Mona Tesla v5 — the equations are the picture
+
+[**Watch the Kokoro explainer · 3 min 31 s**](mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) ·
+[**Download the MP4**](https://github.com/dicipler-pixel/formula-pictures/raw/refs/heads/main/mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) ·
+[**Full build and instructions**](mona-tesla-v5/) ·
+[**Complete formula**](mona-tesla-v5/mona_tesla_sheet_v5.md)
+
+<img src="mona-tesla-v5/Mona_Tesla_v5.png" alt="Mona Tesla v5, rendered from the supplied Fourier coefficients and equations" width="360">
+
+Jeromie Beasley's formula artwork, rendered directly from its coefficient set. The video first
+shows Fourier epicycles tracing the contours, then builds the portrait through all 13 tone
+layers, followed by lightning, deterministic grain, and the Perron colour map. All 651 chains
+are animated: 41,013 rotating circles plus 651 fixed offsets. Kokoro narration uses `af_heart`.
+
+The full build includes the unmodified formula JSON and equation sheet, animation and voice
+scripts, pinned requirements, narration WAV, subtitles, scene timing, final PNG, and MP4.
+The native portrait was reconstructed and compared pixel for pixel. See the
+[build README](mona-tesla-v5/README.md) for commands and implementation details.
+
 ## Credits
 
 * **Hamid Naderi Yeganeh** ([@naderi_yeganeh](https://x.com/naderi_yeganeh) on X) created *View of a Black Hole from a Planet* and the way of writing a
