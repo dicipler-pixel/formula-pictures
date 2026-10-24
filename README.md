@@ -37,8 +37,8 @@ The scripts and reported checks are below.
 
 ## How the black-hole equation is built
 
-Mathelirium ([@mathelirium](https://x.com/mathelirium) on X) asked how Hamid Naderi Yeganeh ([@naderi_yeganeh](https://x.com/naderi_yeganeh)) writes formulas like *View of a Black Hole from a
-Planet*, in which one equation gives the colour of every pixel. The answer here is a sequence of five scripts you can run.
+How does Hamid Naderi Yeganeh ([@naderi_yeganeh](https://x.com/naderi_yeganeh)) write formulas like *View of a Black Hole from a
+Planet*, in which one equation gives the colour of every pixel? The answer here is a sequence of five scripts you can run.
 
 | Script | What it does | Result |
 |---|---|---|
@@ -112,8 +112,6 @@ slip landing on one edge are what this run did; they were not tested across sett
 
 ## Credits
 
-* **Mathelirium** ([@mathelirium](https://x.com/mathelirium) on X) posed the question this repository answers: how are equations like
-  Yeganeh's black-hole picture made?
 * **Hamid Naderi Yeganeh** ([@naderi_yeganeh](https://x.com/naderi_yeganeh) on X) created *View of a Black Hole from a Planet* and the way of writing a
   whole picture as one formula: the pixel convention that turns row n and column m into a point
   (x, y), the soft steps, layers and colour polynomials, and the final step that turns each value
