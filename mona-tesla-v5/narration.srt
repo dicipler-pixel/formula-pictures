@@ -1,87 +1,87 @@
 1
-00:00:00,500 --> 00:00:13,471
+00:00:00,500 --> 00:00:14,964
 This picture begins with rotating circles. Each circle supplies a vector with a measured radius, a rotation frequency, and a starting phase. Add those vectors, and the final tip becomes the drawing pen.
 
 2
-00:00:15,208 --> 00:00:31,784
+00:00:16,667 --> 00:00:34,736
 Here is one smaller contour, enlarged. Its sixty four terms include one fixed offset and sixty three rotating circles. Large circles establish the shape. Small circles refine the detail. Negative frequencies rotate in the opposite direction.
 
 3
-00:00:33,500 --> 00:00:47,836
+00:00:36,458 --> 00:00:52,480
 Now all six hundred fifty one chains run together. You are seeing all forty one thousand thirteen rotating circles. Their tips trace the stored contours at two thousand forty eight samples per orbit. These outlines will define the portrait.
 
 4
-00:00:49,542 --> 00:01:04,539
+00:00:54,208 --> 00:01:10,784
 A closed outline tells us which pixels lie inside it. The nonzero winding test creates that region. Each stored sign then adds or subtracts its tone increment. Subtracting regions preserves holes and interior details.
 
 5
-00:01:06,250 --> 00:01:10,709
+00:01:12,500 --> 00:01:17,641
 The first tone layer establishes the broad silhouette and its darkest structure.
 
 6
-00:01:12,417 --> 00:01:16,235
+00:01:19,375 --> 00:01:23,535
 The second layer begins separating the figure from the surrounding field.
 
 7
-00:01:17,958 --> 00:01:22,268
+00:01:25,250 --> 00:01:30,071
 The third layer adds another increment wherever its signed regions apply.
 
 8
-00:01:24,000 --> 00:01:28,949
+00:01:31,792 --> 00:01:37,317
 The fourth layer continues the build. Every earlier contribution remains in place.
 
 9
-00:01:30,667 --> 00:01:34,656
+00:01:39,042 --> 00:01:43,330
 The fifth layer brings in more intermediate tones across the portrait.
 
 10
-00:01:36,375 --> 00:01:40,919
+00:01:45,042 --> 00:01:50,204
 The sixth layer adds the next set of closed contours to the accumulated field.
 
 11
-00:01:42,625 --> 00:01:47,233
+00:01:51,917 --> 00:01:57,186
 The seventh layer continues the tonal separation around the face and clothing.
 
 12
-00:01:48,958 --> 00:01:53,460
+00:01:58,917 --> 00:02:04,015
 The eighth layer adds finer regions while retaining the larger shapes underneath.
 
 13
-00:01:55,167 --> 00:02:00,052
+00:02:05,750 --> 00:02:11,254
 The ninth layer contributes eighty nine signed outlines, the largest group in this build.
 
 14
-00:02:01,792 --> 00:02:06,165
+00:02:12,958 --> 00:02:17,908
 The tenth layer adds another set of regions to the same scalar tone field.
 
 15
-00:02:07,875 --> 00:02:11,651
+00:02:19,625 --> 00:02:23,977
 The eleventh layer brings the build closer to its brightest tone bands.
 
 16
-00:02:13,375 --> 00:02:18,282
+00:02:25,708 --> 00:02:31,255
 The twelfth layer adds the next highlight regions without replacing the earlier layers.
 
 17
-00:02:20,000 --> 00:02:25,013
+00:02:32,958 --> 00:02:38,633
 The thirteenth layer completes the contour based tone field. The portrait is now assembled.
 
 18
-00:02:26,750 --> 00:02:42,174
+00:02:40,333 --> 00:02:57,037
 The lightning is calculated separately. Fifteen paths use oscillating offsets to form the branches. Distance from each sampled path sets the glow, and the fracture envelope controls its strength. That light field is added to the portrait tone.
 
 19
-00:02:43,875 --> 00:02:56,376
+00:02:58,750 --> 00:03:12,403
 The tone passes through a sigmoid. Twenty nine cosine waves then add the specified grain. This texture is deterministic too. The same equations produce the same pattern every time.
 
 20
-00:02:58,083 --> 00:03:10,030
+00:03:14,125 --> 00:03:27,224
 Finally, the supplied Perron vector controls the red, green, and blue channels. Each channel blends the shade with its cube. That turns the single brightness field into this warm gold palette.
 
 21
-00:03:11,750 --> 00:03:19,750
+00:03:28,958 --> 00:03:37,684
 Circles become contours. Contours build tone. Lightning, grain, and colour complete the image. The equations are the picture.
 
 22
-00:03:21,458 --> 00:03:29,501
+00:03:39,417 --> 00:03:48,291
 Mona Tesla, version five. Formula artwork and coefficients by Jeromie Beasley. Narration generated with Kokoro.

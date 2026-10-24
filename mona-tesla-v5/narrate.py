@@ -15,15 +15,17 @@ kokoro_onnx.create_session=lambda path:ort.InferenceSession(path,sess_options=op
 k=Kokoro(a.model,a.voices)
 scenes=script();audio=[];clock=0;sr=24000;entries=[]
 for i,s in enumerate(scenes):
- path=ROOT/'assets'/f'voice_{i:02d}.wav'
+ path=ROOT/'assets'/f'voice_am_michael_{i:02d}.wav'
  if path.exists():samples,sr=sf.read(path,dtype='float32')
  else:
-  samples,sr=k.create(s['narration'],voice='af_heart',speed=.98,lang='en-us')
+  samples,sr=k.create(s['narration'],voice='am_michael',speed=.98,lang='en-us')
+  peak=float(np.max(np.abs(samples)))
+  if peak>.98:samples=samples*(.98/peak)
   sf.write(path,samples,sr)
  speechdur=len(samples)/sr
  duration=max(s['min'],speechdur+1.7);frames=math.ceil(duration*FPS);duration=frames/FPS
  lead=.5;pad=np.zeros(int(round(duration*sr)),dtype='float32');start=int(lead*sr);pad[start:start+len(samples)]=samples
- audio.append(pad);s.update(frames=frames,start=clock,duration=duration,speech_duration=speechdur,voice='af_heart',captions=[])
+ audio.append(pad);s.update(frames=frames,start=clock,duration=duration,speech_duration=speechdur,voice='am_michael',captions=[])
  # Short phrase captions are proportional within each scene; narration remains unaltered.
  phrases=re.split(r'(?<=[.!?])\s+',s['narration']);weights=[len(x.split()) for x in phrases];pos=lead
  for phrase,weight in zip(phrases,weights):

@@ -11,8 +11,13 @@
   The input equation sheet and coefficient JSON were preserved unchanged. The reconstructed
   native portrait was compared pixel for pixel, scene layouts were visually inspected,
   and the encoded video was decoded successfully. Narration was synthesized locally with
-  Kokoro-82M, voice `af_heart`; no generative image or video model was used for the artwork
+  Kokoro-82M, initially voice `af_heart`; no generative image or video model was used for the artwork
   or animation. Scene transitions interpolate between the computed stages for explanation.
+
+* 24 October 2026 (America/Chicago): on the author's request, ChatGPT regenerated
+  the Mona Tesla v5 narration using Kokoro voice `am_michael`, retimed the scenes and
+  subtitles to the new recording, and updated the video and reproducible build.
+  The portrait equations and coefficient file were unchanged.
 
 ## Author's disclosure
 

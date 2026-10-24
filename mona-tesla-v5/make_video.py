@@ -99,7 +99,7 @@ def script():
  dict(kind='grain',min=9,title='Grain from 29 cosine waves',kicker='07 / SHADE AND GRAIN',body=['Map tone through the sigmoid.','Add the prescribed cosine sum / 140.','Clamp the result between zero and one.'],formula=None,narration='The tone passes through a sigmoid. Twenty nine cosine waves then add the specified grain. This texture is deterministic too. The same equations produce the same pattern every time.'),
  dict(kind='colour',min=10,title='One field becomes three colours',kicker='08 / PERRON COLOUR MAP',body=['Use the supplied Perron vector.','Blend linear and cubic shade per channel.','Quantize each RGB value to an integer.'],formula='colour',narration='Finally, the supplied Perron vector controls the red, green, and blue channels. Each channel blends the shade with its cube. That turns the single brightness field into this warm gold palette.'),
  dict(kind='final',min=8,title='The equations are the picture',kicker='MONA TESLA V5',body=['Circles → contours → signed tone','Lightning → grain → RGB','Every visible pixel is computed.'],formula=None,narration='Circles become contours. Contours build tone. Lightning, grain, and colour complete the image. The equations are the picture.'),
- dict(kind='credits',min=7,title='Mona Tesla v5',kicker='CREDITS',body=['Formula artwork and coefficient set','Jeromie Beasley','Fourier epicycles · winding numbers','Kokoro-82M / hexgrad · af_heart','Code animation and rendering: ChatGPT'],formula=None,narration='Mona Tesla, version five. Formula artwork and coefficients by Jeromie Beasley. Narration generated with Kokoro.')]
+ dict(kind='credits',min=7,title='Mona Tesla v5',kicker='CREDITS',body=['Formula artwork and coefficient set','Jeromie Beasley','Fourier epicycles · winding numbers','Kokoro-82M / hexgrad · am_michael','Code animation and rendering: ChatGPT'],formula=None,narration='Mona Tesla, version five. Formula artwork and coefficients by Jeromie Beasley. Narration generated with Kokoro.')]
  return scenes
 
 def formula_images():
@@ -251,7 +251,7 @@ def video():
   if preview or scene_idx in [0,1,2,3,4,10,16,17,18,19,20,21]:im.save(AS/f'qa_{scene_idx:02d}.jpg',quality=90)
  if preview:return
  enc.stdin.close();assert enc.wait()==0
- subprocess.run(['ffmpeg','-y','-v','error','-i',str(silent),'-i',str(ROOT/'narration.wav'),'-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart','-metadata','title=Mona Tesla v5 — The Equations Are the Picture','-metadata','artist=Jeromie Beasley','-metadata','comment=Exact Fourier coefficient animation; Kokoro af_heart narration.',str(out)],check=True)
+ subprocess.run(['ffmpeg','-y','-v','error','-i',str(silent),'-i',str(ROOT/'narration.wav'),'-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart','-metadata','title=Mona Tesla v5 — The Equations Are the Picture','-metadata','artist=Jeromie Beasley','-metadata','comment=Exact Fourier coefficient animation; Kokoro am_michael narration.',str(out)],check=True)
  print('VIDEO COMPLETE',out,flush=True)
 
 if __name__=='__main__':

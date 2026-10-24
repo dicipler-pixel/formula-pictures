@@ -11,30 +11,30 @@
     ],
     "formula": "orbit",
     "narration": "This picture begins with rotating circles. Each circle supplies a vector with a measured radius, a rotation frequency, and a starting phase. Add those vectors, and the final tip becomes the drawing pen.",
-    "frames": 353,
+    "frames": 388,
     "start": 0,
-    "duration": 14.708333333333334,
-    "speech_duration": 12.970666666666666,
-    "voice": "af_heart",
+    "duration": 16.166666666666668,
+    "speech_duration": 14.464,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 2.85830303030303,
+        "end": 3.129818181818182,
         "lines": [
           "This picture begins with rotating circles."
         ]
       },
       {
-        "start": 2.85830303030303,
-        "end": 9.14711111111111,
+        "start": 3.129818181818182,
+        "end": 10.142666666666667,
         "lines": [
           "Each circle supplies a vector with a measured radius, a",
           "rotation frequency, and a starting phase."
         ]
       },
       {
-        "start": 9.14711111111111,
-        "end": 13.470666666666666,
+        "start": 10.142666666666667,
+        "end": 14.964,
         "lines": [
           "Add those vectors, and the final tip becomes the drawing",
           "pen."
@@ -54,44 +54,44 @@
     ],
     "formula": "orbit",
     "narration": "Here is one smaller contour, enlarged. Its sixty four terms include one fixed offset and sixty three rotating circles. Large circles establish the shape. Small circles refine the detail. Negative frequencies rotate in the opposite direction.",
-    "frames": 439,
-    "start": 14.708333333333334,
-    "duration": 18.291666666666668,
-    "speech_duration": 16.576,
-    "voice": "af_heart",
+    "frames": 475,
+    "start": 16.166666666666668,
+    "duration": 19.791666666666668,
+    "speech_duration": 18.069333333333333,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 3.2626666666666666,
+        "end": 3.5115555555555553,
         "lines": [
           "Here is one smaller contour, enlarged."
         ]
       },
       {
-        "start": 3.2626666666666666,
-        "end": 9.248444444444445,
+        "start": 3.5115555555555553,
+        "end": 10.036592592592593,
         "lines": [
           "Its sixty four terms include one fixed offset and sixty",
           "three rotating circles."
         ]
       },
       {
-        "start": 9.248444444444445,
-        "end": 11.550666666666666,
+        "start": 10.036592592592593,
+        "end": 12.546222222222223,
         "lines": [
           "Large circles establish the shape."
         ]
       },
       {
-        "start": 11.550666666666666,
-        "end": 13.852888888888888,
+        "start": 12.546222222222223,
+        "end": 15.055851851851852,
         "lines": [
           "Small circles refine the detail."
         ]
       },
       {
-        "start": 13.852888888888888,
-        "end": 17.076,
+        "start": 15.055851851851852,
+        "end": 18.569333333333333,
         "lines": [
           "Negative frequencies rotate in the opposite direction."
         ]
@@ -110,38 +110,38 @@
     ],
     "formula": "orbit",
     "narration": "Now all six hundred fifty one chains run together. You are seeing all forty one thousand thirteen rotating circles. Their tips trace the stored contours at two thousand forty eight samples per orbit. These outlines will define the portrait.",
-    "frames": 385,
-    "start": 33.0,
-    "duration": 16.041666666666668,
-    "speech_duration": 14.336,
-    "voice": "af_heart",
+    "frames": 426,
+    "start": 35.958333333333336,
+    "duration": 17.75,
+    "speech_duration": 16.021333333333335,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 3.808307692307692,
+        "end": 4.197230769230769,
         "lines": [
           "Now all six hundred fifty one chains run together."
         ]
       },
       {
-        "start": 3.808307692307692,
-        "end": 7.4842051282051285,
+        "start": 4.197230769230769,
+        "end": 8.305264957264956,
         "lines": [
           "You are seeing all forty one thousand thirteen rotating",
           "circles."
         ]
       },
       {
-        "start": 7.4842051282051285,
-        "end": 12.630461538461539,
+        "start": 8.305264957264956,
+        "end": 14.05651282051282,
         "lines": [
           "Their tips trace the stored contours at two thousand",
           "forty eight samples per orbit."
         ]
       },
       {
-        "start": 12.630461538461539,
-        "end": 14.836,
+        "start": 14.05651282051282,
+        "end": 16.521333333333335,
         "lines": [
           "These outlines will define the portrait."
         ]
@@ -160,37 +160,37 @@
     ],
     "formula": "winding",
     "narration": "A closed outline tells us which pixels lie inside it. The nonzero winding test creates that region. Each stored sign then adds or subtracts its tone increment. Subtracting regions preserves holes and interior details.",
-    "frames": 401,
-    "start": 49.04166666666667,
-    "duration": 16.708333333333332,
-    "speech_duration": 14.997333333333334,
-    "voice": "af_heart",
+    "frames": 439,
+    "start": 53.708333333333336,
+    "duration": 18.291666666666668,
+    "speech_duration": 16.576,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.910980392156863,
+        "end": 5.375294117647059,
         "lines": [
           "A closed outline tells us which pixels lie inside it."
         ]
       },
       {
-        "start": 4.910980392156863,
-        "end": 7.998666666666667,
+        "start": 5.375294117647059,
+        "end": 8.788,
         "lines": [
           "The nonzero winding test creates that region."
         ]
       },
       {
-        "start": 7.998666666666667,
-        "end": 12.40964705882353,
+        "start": 8.788,
+        "end": 13.663294117647059,
         "lines": [
           "Each stored sign then adds or subtracts its tone",
           "increment."
         ]
       },
       {
-        "start": 12.40964705882353,
-        "end": 15.497333333333334,
+        "start": 13.663294117647059,
+        "end": 17.076,
         "lines": [
           "Subtracting regions preserves holes and interior details."
         ]
@@ -210,15 +210,15 @@
     ],
     "formula": "tone",
     "narration": "The first tone layer establishes the broad silhouette and its darkest structure.",
-    "frames": 148,
-    "start": 65.75,
-    "duration": 6.166666666666667,
-    "speech_duration": 4.458666666666667,
-    "voice": "af_heart",
+    "frames": 165,
+    "start": 72.0,
+    "duration": 6.875,
+    "speech_duration": 5.141333333333334,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.958666666666667,
+        "end": 5.641333333333334,
         "lines": [
           "The first tone layer establishes the broad silhouette and",
           "its darkest structure."
@@ -239,15 +239,15 @@
     ],
     "formula": "tone",
     "narration": "The second layer begins separating the figure from the surrounding field.",
-    "frames": 133,
-    "start": 71.91666666666667,
-    "duration": 5.541666666666667,
-    "speech_duration": 3.8186666666666667,
-    "voice": "af_heart",
+    "frames": 141,
+    "start": 78.875,
+    "duration": 5.875,
+    "speech_duration": 4.16,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.318666666666667,
+        "end": 4.66,
         "lines": [
           "The second layer begins separating the figure from the",
           "surrounding field."
@@ -268,15 +268,15 @@
     ],
     "formula": "tone",
     "narration": "The third layer adds another increment wherever its signed regions apply.",
-    "frames": 145,
-    "start": 77.45833333333334,
-    "duration": 6.041666666666667,
-    "speech_duration": 4.309333333333333,
-    "voice": "af_heart",
+    "frames": 157,
+    "start": 84.75,
+    "duration": 6.541666666666667,
+    "speech_duration": 4.8213333333333335,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.809333333333333,
+        "end": 5.3213333333333335,
         "lines": [
           "The third layer adds another increment wherever its",
           "signed regions apply."
@@ -297,22 +297,22 @@
     ],
     "formula": "tone",
     "narration": "The fourth layer continues the build. Every earlier contribution remains in place.",
-    "frames": 160,
-    "start": 83.50000000000001,
-    "duration": 6.666666666666667,
-    "speech_duration": 4.949333333333334,
-    "voice": "af_heart",
+    "frames": 174,
+    "start": 91.29166666666667,
+    "duration": 7.25,
+    "speech_duration": 5.525333333333333,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 2.974666666666667,
+        "end": 3.2626666666666666,
         "lines": [
           "The fourth layer continues the build."
         ]
       },
       {
-        "start": 2.974666666666667,
-        "end": 5.449333333333334,
+        "start": 3.2626666666666666,
+        "end": 6.025333333333333,
         "lines": [
           "Every earlier contribution remains in place."
         ]
@@ -332,15 +332,15 @@
     ],
     "formula": "tone",
     "narration": "The fifth layer brings in more intermediate tones across the portrait.",
-    "frames": 137,
-    "start": 90.16666666666669,
-    "duration": 5.708333333333333,
-    "speech_duration": 3.989333333333333,
-    "voice": "af_heart",
+    "frames": 144,
+    "start": 98.54166666666667,
+    "duration": 6.0,
+    "speech_duration": 4.288,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.489333333333333,
+        "end": 4.788,
         "lines": [
           "The fifth layer brings in more intermediate tones across",
           "the portrait."
@@ -361,15 +361,15 @@
     ],
     "formula": "tone",
     "narration": "The sixth layer adds the next set of closed contours to the accumulated field.",
-    "frames": 150,
-    "start": 95.87500000000001,
-    "duration": 6.25,
-    "speech_duration": 4.544,
-    "voice": "af_heart",
+    "frames": 165,
+    "start": 104.54166666666667,
+    "duration": 6.875,
+    "speech_duration": 5.1626666666666665,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 5.044,
+        "end": 5.6626666666666665,
         "lines": [
           "The sixth layer adds the next set of closed contours to",
           "the accumulated field."
@@ -390,15 +390,15 @@
     ],
     "formula": "tone",
     "narration": "The seventh layer continues the tonal separation around the face and clothing.",
-    "frames": 152,
-    "start": 102.12500000000001,
-    "duration": 6.333333333333333,
-    "speech_duration": 4.608,
-    "voice": "af_heart",
+    "frames": 168,
+    "start": 111.41666666666667,
+    "duration": 7.0,
+    "speech_duration": 5.269333333333333,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 5.108,
+        "end": 5.769333333333333,
         "lines": [
           "The seventh layer continues the tonal separation around",
           "the face and clothing."
@@ -419,15 +419,15 @@
     ],
     "formula": "tone",
     "narration": "The eighth layer adds finer regions while retaining the larger shapes underneath.",
-    "frames": 149,
-    "start": 108.45833333333334,
-    "duration": 6.208333333333333,
-    "speech_duration": 4.501333333333333,
-    "voice": "af_heart",
+    "frames": 164,
+    "start": 118.41666666666667,
+    "duration": 6.833333333333333,
+    "speech_duration": 5.0986666666666665,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 5.001333333333333,
+        "end": 5.5986666666666665,
         "lines": [
           "The eighth layer adds finer regions while retaining the",
           "larger shapes underneath."
@@ -448,15 +448,15 @@
     ],
     "formula": "tone",
     "narration": "The ninth layer contributes eighty nine signed outlines, the largest group in this build.",
-    "frames": 159,
-    "start": 114.66666666666667,
-    "duration": 6.625,
-    "speech_duration": 4.8853333333333335,
-    "voice": "af_heart",
+    "frames": 173,
+    "start": 125.25,
+    "duration": 7.208333333333333,
+    "speech_duration": 5.504,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 5.3853333333333335,
+        "end": 6.004,
         "lines": [
           "The ninth layer contributes eighty nine signed outlines,",
           "the largest group in this build."
@@ -477,15 +477,15 @@
     ],
     "formula": "tone",
     "narration": "The tenth layer adds another set of regions to the same scalar tone field.",
-    "frames": 146,
-    "start": 121.29166666666667,
-    "duration": 6.083333333333333,
-    "speech_duration": 4.373333333333333,
-    "voice": "af_heart",
+    "frames": 160,
+    "start": 132.45833333333334,
+    "duration": 6.666666666666667,
+    "speech_duration": 4.949333333333334,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.873333333333333,
+        "end": 5.449333333333334,
         "lines": [
           "The tenth layer adds another set of regions to the same",
           "scalar tone field."
@@ -506,15 +506,15 @@
     ],
     "formula": "tone",
     "narration": "The eleventh layer brings the build closer to its brightest tone bands.",
-    "frames": 132,
-    "start": 127.375,
-    "duration": 5.5,
-    "speech_duration": 3.776,
-    "voice": "af_heart",
+    "frames": 146,
+    "start": 139.125,
+    "duration": 6.083333333333333,
+    "speech_duration": 4.352,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 4.276,
+        "end": 4.852,
         "lines": [
           "The eleventh layer brings the build closer to its",
           "brightest tone bands."
@@ -535,15 +535,15 @@
     ],
     "formula": "tone",
     "narration": "The twelfth layer adds the next highlight regions without replacing the earlier layers.",
-    "frames": 159,
-    "start": 132.875,
-    "duration": 6.625,
-    "speech_duration": 4.906666666666666,
-    "voice": "af_heart",
+    "frames": 174,
+    "start": 145.20833333333334,
+    "duration": 7.25,
+    "speech_duration": 5.546666666666667,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 5.406666666666666,
+        "end": 6.046666666666667,
         "lines": [
           "The twelfth layer adds the next highlight regions without",
           "replacing the earlier layers."
@@ -564,23 +564,23 @@
     ],
     "formula": "tone",
     "narration": "The thirteenth layer completes the contour based tone field. The portrait is now assembled.",
-    "frames": 162,
-    "start": 139.5,
-    "duration": 6.75,
-    "speech_duration": 5.013333333333334,
-    "voice": "af_heart",
+    "frames": 177,
+    "start": 152.45833333333334,
+    "duration": 7.375,
+    "speech_duration": 5.674666666666667,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 3.7228571428571433,
+        "end": 4.148,
         "lines": [
           "The thirteenth layer completes the contour based tone",
           "field."
         ]
       },
       {
-        "start": 3.7228571428571433,
-        "end": 5.513333333333334,
+        "start": 4.148,
+        "end": 6.174666666666667,
         "lines": [
           "The portrait is now assembled."
         ]
@@ -599,38 +599,38 @@
     ],
     "formula": "bolt",
     "narration": "The lightning is calculated separately. Fifteen paths use oscillating offsets to form the branches. Distance from each sampled path sets the glow, and the fracture envelope controls its strength. That light field is added to the portrait tone.",
-    "frames": 411,
-    "start": 146.25,
-    "duration": 17.125,
-    "speech_duration": 15.424,
-    "voice": "af_heart",
+    "frames": 442,
+    "start": 159.83333333333334,
+    "duration": 18.416666666666668,
+    "speech_duration": 16.704,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 2.5294736842105263,
+        "end": 2.6978947368421053,
         "lines": [
           "The lightning is calculated separately."
         ]
       },
       {
-        "start": 2.5294736842105263,
-        "end": 6.182526315789474,
+        "start": 2.6978947368421053,
+        "end": 6.654105263157895,
         "lines": [
           "Fifteen paths use oscillating offsets to form the",
           "branches."
         ]
       },
       {
-        "start": 6.182526315789474,
-        "end": 12.270947368421051,
+        "start": 6.654105263157895,
+        "end": 13.247789473684211,
         "lines": [
           "Distance from each sampled path sets the glow, and the",
           "fracture envelope controls its strength."
         ]
       },
       {
-        "start": 12.270947368421051,
-        "end": 15.924,
+        "start": 13.247789473684211,
+        "end": 17.204,
         "lines": [
           "That light field is added to the portrait tone."
         ]
@@ -649,36 +649,36 @@
     ],
     "formula": null,
     "narration": "The tone passes through a sigmoid. Twenty nine cosine waves then add the specified grain. This texture is deterministic too. The same equations produce the same pattern every time.",
-    "frames": 341,
-    "start": 163.375,
-    "duration": 14.208333333333334,
-    "speech_duration": 12.501333333333333,
-    "voice": "af_heart",
+    "frames": 369,
+    "start": 178.25,
+    "duration": 15.375,
+    "speech_duration": 13.653333333333334,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 3.0864827586206895,
+        "end": 3.324827586206897,
         "lines": [
           "The tone passes through a sigmoid."
         ]
       },
       {
-        "start": 3.0864827586206895,
-        "end": 6.966206896551724,
+        "start": 3.324827586206897,
+        "end": 7.562068965517241,
         "lines": [
           "Twenty nine cosine waves then add the specified grain."
         ]
       },
       {
-        "start": 6.966206896551724,
-        "end": 9.121609195402298,
+        "start": 7.562068965517241,
+        "end": 9.916091954022988,
         "lines": [
           "This texture is deterministic too."
         ]
       },
       {
-        "start": 9.121609195402298,
-        "end": 13.001333333333333,
+        "start": 9.916091954022988,
+        "end": 14.153333333333332,
         "lines": [
           "The same equations produce the same pattern every time."
         ]
@@ -697,30 +697,30 @@
     ],
     "formula": "colour",
     "narration": "Finally, the supplied Perron vector controls the red, green, and blue channels. Each channel blends the shade with its cube. That turns the single brightness field into this warm gold palette.",
-    "frames": 328,
-    "start": 177.58333333333334,
-    "duration": 13.666666666666666,
-    "speech_duration": 11.946666666666667,
-    "voice": "af_heart",
+    "frames": 356,
+    "start": 193.625,
+    "duration": 14.833333333333334,
+    "speech_duration": 13.098666666666666,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 5.1245161290322585,
+        "end": 5.570451612903225,
         "lines": [
           "Finally, the supplied Perron vector controls the red,",
           "green, and blue channels."
         ]
       },
       {
-        "start": 5.1245161290322585,
-        "end": 8.20752688172043,
+        "start": 5.570451612903225,
+        "end": 8.950752688172042,
         "lines": [
           "Each channel blends the shade with its cube."
         ]
       },
       {
-        "start": 8.20752688172043,
-        "end": 12.446666666666665,
+        "start": 8.950752688172042,
+        "end": 13.598666666666665,
         "lines": [
           "That turns the single brightness field into this warm",
           "gold palette."
@@ -740,36 +740,36 @@
     ],
     "formula": null,
     "narration": "Circles become contours. Contours build tone. Lightning, grain, and colour complete the image. The equations are the picture.",
-    "frames": 233,
-    "start": 191.25,
-    "duration": 9.708333333333334,
-    "speech_duration": 8.0,
-    "voice": "af_heart",
+    "frames": 251,
+    "start": 208.45833333333334,
+    "duration": 10.458333333333334,
+    "speech_duration": 8.725333333333333,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 1.8333333333333333,
+        "end": 1.9542222222222223,
         "lines": [
           "Circles become contours."
         ]
       },
       {
-        "start": 1.8333333333333333,
-        "end": 3.1666666666666665,
+        "start": 1.9542222222222223,
+        "end": 3.4084444444444446,
         "lines": [
           "Contours build tone."
         ]
       },
       {
-        "start": 3.1666666666666665,
-        "end": 6.277777777777778,
+        "start": 3.4084444444444446,
+        "end": 6.80162962962963,
         "lines": [
           "Lightning, grain, and colour complete the image."
         ]
       },
       {
-        "start": 6.277777777777778,
-        "end": 8.5,
+        "start": 6.80162962962963,
+        "end": 9.225333333333333,
         "lines": [
           "The equations are the picture."
         ]
@@ -785,34 +785,34 @@
       "Formula artwork and coefficient set",
       "Jeromie Beasley",
       "Fourier epicycles \u00b7 winding numbers",
-      "Kokoro-82M / hexgrad \u00b7 af_heart",
+      "Kokoro-82M / hexgrad \u00b7 am_michael",
       "Code animation and rendering: ChatGPT"
     ],
     "formula": null,
     "narration": "Mona Tesla, version five. Formula artwork and coefficients by Jeromie Beasley. Narration generated with Kokoro.",
-    "frames": 234,
-    "start": 200.95833333333334,
-    "duration": 9.75,
-    "speech_duration": 8.042666666666667,
-    "voice": "af_heart",
+    "frames": 254,
+    "start": 218.91666666666669,
+    "duration": 10.583333333333334,
+    "speech_duration": 8.874666666666666,
+    "voice": "am_michael",
     "captions": [
       {
         "start": 0.5,
-        "end": 2.6447111111111115,
+        "end": 2.8665777777777777,
         "lines": [
           "Mona Tesla, version five."
         ]
       },
       {
-        "start": 2.6447111111111115,
-        "end": 6.397955555555557,
+        "start": 2.8665777777777777,
+        "end": 7.008088888888889,
         "lines": [
           "Formula artwork and coefficients by Jeromie Beasley."
         ]
       },
       {
-        "start": 6.397955555555557,
-        "end": 8.542666666666669,
+        "start": 7.008088888888889,
+        "end": 9.374666666666666,
         "lines": [
           "Narration generated with Kokoro."
         ]

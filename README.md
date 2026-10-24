@@ -112,7 +112,7 @@ slip landing on one edge are what this run did; they were not tested across sett
 
 ## Mona Tesla v5 — the equations are the picture
 
-[**Watch the Kokoro explainer · 3 min 31 s**](mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) ·
+[**Watch the Kokoro explainer · 3 min 50 s**](mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) ·
 [**Download the MP4**](https://github.com/dicipler-pixel/formula-pictures/raw/refs/heads/main/mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) ·
 [**Full build and instructions**](mona-tesla-v5/) ·
 [**Complete formula**](mona-tesla-v5/mona_tesla_sheet_v5.md)
@@ -122,7 +122,7 @@ slip landing on one edge are what this run did; they were not tested across sett
 Jeromie Beasley's formula artwork, rendered directly from its coefficient set. The video first
 shows Fourier epicycles tracing the contours, then builds the portrait through all 13 tone
 layers, followed by lightning, deterministic grain, and the Perron colour map. All 651 chains
-are animated: 41,013 rotating circles plus 651 fixed offsets. Kokoro narration uses `af_heart`.
+are animated: 41,013 rotating circles plus 651 fixed offsets. Kokoro narration uses `am_michael`.
 
 The full build includes the unmodified formula JSON and equation sheet, animation and voice
 scripts, pinned requirements, narration WAV, subtitles, scene timing, final PNG, and MP4.

@@ -2,9 +2,9 @@
 
 Formula artwork and coefficient set: **Jeromie Beasley**.
 Animation, implementation, and video assembly: ChatGPT.
-Narration: **Kokoro-82M**, voice `af_heart`, via `kokoro-onnx`.
+Narration: **Kokoro-82M**, voice `am_michael`, via `kokoro-onnx`.
 
-[**Watch the 3:31 Kokoro explainer**](Mona_Tesla_v5_Explainer_Kokoro.mp4) · [Download MP4](https://github.com/dicipler-pixel/formula-pictures/raw/refs/heads/main/mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) · [Complete equations](mona_tesla_sheet_v5.md)
+[**Watch the 3:50 Kokoro explainer**](Mona_Tesla_v5_Explainer_Kokoro.mp4) · [Download MP4](https://github.com/dicipler-pixel/formula-pictures/raw/refs/heads/main/mona-tesla-v5/Mona_Tesla_v5_Explainer_Kokoro.mp4) · [Complete equations](mona_tesla_sheet_v5.md)
 
 ![Portrait reconstructed from the supplied equations](Mona_Tesla_v5.png)
 
@@ -33,13 +33,13 @@ The included `narration.wav` and `timeline.json` preserve the actual Kokoro narr
 
 `python make_video.py --preview` generates scene inspection frames without encoding a video. `python make_video.py --prepare-only` reconstructs the mathematical layers and final image.
 
-To regenerate narration, install `kokoro-onnx==0.6.1`, download a compatible Kokoro ONNX model and voices file, then run:
+To regenerate narration, run `python -m pip install -r requirements-voice.txt`, download a compatible Kokoro ONNX model and voices file, then run:
 
 ```bash
 python narrate.py --model /path/to/kokoro-v1.0.onnx --voices /path/to/voices-v1.0.bin
 ```
 
-The Kokoro model weights are not included. Model project: https://huggingface.co/hexgrad/Kokoro-82M . ONNX runtime project: https://github.com/thewh1teagle/kokoro-onnx . The voice used in this video was generated locally from the Kokoro v1.0 int8 model, with the `af_heart` voice at speed 0.98.
+The Kokoro model weights are not included. Model project: https://huggingface.co/hexgrad/Kokoro-82M . ONNX runtime project: https://github.com/thewh1teagle/kokoro-onnx . The voice used in this video was generated locally from the Kokoro v1.0 int8 model, with the `am_michael` voice at speed 0.98.
 
 ## Exact construction
 
